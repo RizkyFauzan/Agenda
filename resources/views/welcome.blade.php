@@ -1,485 +1,331 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Agendaahh</title>
+<!DOCTYPE html>
+<html>
+
+<head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <title>Agendaahh</title>
 
-    <link rel="stylesheet" href="{{ asset('templates/css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('templates/css/animate.css') }}">
-    <link rel="stylesheet" href="{{ asset('templates/css/owl.carousel.min.css') }}">
+    <link href="{{ asset('/templates/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/templates/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('templates/css/magnific-popup.css') }}">
+    <link href="{{ asset('/templates/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('/templates/css/style.css') }}" rel="stylesheet">
 
+</head>
 
-    <link rel="stylesheet" href="{{ asset('templates/fonts/ionicons/css/ionicons.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('templates/fonts/fontawesome/css/font-awesome.min.css') }}">
+<body>
 
-    <!-- Theme Style -->
-    <link rel="stylesheet" href="{{ asset('templates/css/style.css') }}">
-  </head>
-  <body>
-    
-    <header role="banner">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><strong>Agendah</strong></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <div id="wrapper">
 
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav mr-auto pl-lg-5 pl-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-<!--               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Body Builder</a>
-                  <a class="dropdown-item" href="services.html">Yoga Pilate</a>
-                  <a class="dropdown-item" href="services.html">Healthy Life</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul> -->
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <img alt="image" class="rounded-circle" src="{{ asset('/templates/img/mini pen.jpg')}}"/>
+<!--                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="block m-t-xs font-bold">David Williams</span>
+                            <span class="text-muted text-xs block">Art Director <b class="caret"></b></span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                            <li><a class="dropdown-item" href="contacts.html">Contacts</a></li>
+                            <li><a class="dropdown-item" href="mailbox.html">Mailbox</a></li>
+                            <li class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-element">
+                        IN+
+                    </div>
+                </li> -->
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="{{ asset('templates/member.html') }}">Become a member</a>
-              </li>
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- END header -->
-    
-<!--     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('img/slider-1.jpg');">
         
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>Health is wealth</h1>
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-              <p><a href="#" class="btn btn-white btn-outline-white">Get Started</a> <a href="#" class="btn btn-link btn-white">Download</a></p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="slider-item" style="background-image: url('img/slider-2.jpg');">
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>Join Fitnezz Today</h1>
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-              <p><a href="#" class="btn btn-white btn-outline-white">Get Started</a> <a href="#" class="btn btn-link btn-white">Download</a></p>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-
-    </section> -->
-    <!-- END slider -->
-
-    
-<!--     <section class="section element-animate">
-
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Featured Classes</h2>
-              <span class="back-text">The Classes</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="owl-carousel centernonloop">
-        <a href="#" class="item-class">
-          <div class="text">
-            <p class="class-price">$30.99</p>
-            <h2 class="class-heading">Fitness Class Name Here</h2>
-          </div>
-          <img src="img/img_1_square.jpg" alt="" class="img-fluid">
-        </a>
-        <a href="#" class="item-class">
-          <div class="text">
-            <p class="class-price">$30.99</p>
-            <h2 class="class-heading">Fitness Class Name Here</h2>
-          </div>
-          <img src="img/img_2_square.jpg" alt="" class="img-fluid">
-        </a>
-        <a href="#" class="item-class">
-          <div class="text">
-            <p class="class-price">$30.99</p>
-            <h2 class="class-heading">Fitness Class Name Here</h2>
-          </div>
-          <img src="img/img_3_square.jpg" alt="" class="img-fluid">
-        </a>
-        <a href="#" class="item-class">
-          <div class="text">
-            <p class="class-price">$30.99</p>
-            <h2 class="class-heading">Fitness Class Name Here</h2>
-          </div>
-          <img src="img/img_4_square.jpg" alt="" class="img-fluid">
-        </a>
-      </div>
-    </section> --> <!-- .section -->
-
-<!--     <section class="section bg-light element-animate">
-
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Our Schedule</h2>
-              <span class="back-text-dark">Schedule</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/img_1_square.jpg');"></div>
-              <div class="text order-1">
-                <h3>Fitness Class Name Here</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="sched-time">
-                  <span><span class="fa fa-clock-o"></span> 5:30 PM</span> <br>
-                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
-                </p>
-                <p><a href="#" class="btn btn-primary btn-sm">Join from $15</a></p>
+                <li>
+                    <a href="/"><i class="fa fa-diamond"></i> <span class="nav-label">Layouts</span></a>
+                </li>
+               
+               
+                <li>
+                    <a href="/"><i class="fa fa-pie-chart"></i> <span class="nav-label">Metrics</span>  </a>
+                </li>
+                <li>
+                    <a href="/"><i class="fa fa-flask"></i> <span class="nav-label">Widgets</span></a>
+                </li>
                 
-              </div>
-              
-            </div>
-
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/img_2_square.jpg');"></div>
-              <div class="text">
-                <h3>Fitness Class Name Here</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="sched-time">
-                  <span><span class="fa fa-clock-o"></span> 5:30 PM</span> <br>
-                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
-                </p>
-                <p><a href="#" class="btn btn-primary btn-sm">Join from $15</a></p>
                 
-              </div>
-              
-            </div>
-
-          </div>
-
-          <div class="col-md-6">
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/img_4_square.jpg');"></div>
-              <div class="text order-1">
-                <h3>Fitness Class Name Here</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="sched-time">
-                  <span><span class="fa fa-clock-o"></span> 5:30 PM</span> <br>
-                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
-                </p>
-                <p><a href="#" class="btn btn-primary btn-sm">Join from $15</a></p>
-                
-              </div>
-              
-            </div>
-
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/img_3_square.jpg');"></div>
-              <div class="text">
-                <h3>Fitness Class Name Here</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="sched-time">
-                  <span><span class="fa fa-clock-o"></span> 5:30 PM</span> <br>
-                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
-                </p>
-                <p><a href="#" class="btn btn-primary btn-sm">Join from $15</a></p>
-                
-              </div>
-              
-            </div>
-
-          </div>
-        </div>
-        
-
-      </div>
-    </section> --> <!-- .section -->
-
-<!--     <section class="section element-animate">
-
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Expert Trainers</h2>
-              <span class="back-text">Our Trainers</span>
-            </div>
-          </div>
-        </div>
-      </div>
-        <div class="container">
-          <div class="row">
-            <div class="major-caousel js-carousel-1 owl-carousel">
-              <div>
-                <div class="media d-block media-custom text-center">
-                  <a href="#"><img src="img/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                  <div class="media-body">
-                    <h3 class="mt-0 text-black">Mellisa Howard</h3>
-                    <p class="lead">Gym Trainer</p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="media d-block media-custom text-center">
-                  <a href="#"><img src="img/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                  <div class="media-body">
-                    <h3 class="mt-0 text-black">Mike Richardson</h3>
-                    <p class="lead">Gym Trainer</p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="media d-block media-custom text-center">
-                  <a href="#"><img src="img/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                  <div class="media-body">
-                    <h3 class="mt-0 text-black">Charles White</h3>
-                    <p class="lead">Gym Trainer</p>
-                  </div>
-                </div>
-              </div>
-
-               <div>
-              <div class="media d-block media-custom text-center">
-                <a href="#"><img src="img/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Mellisa Howard</h3>
-                  <p class="lead">Gym Trainer</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <a href="#"><img src="img/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Mike Richardson</h3>
-                  <p class="lead">Gym Trainer</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <a href="#"><img src="img/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Charles White</h3>
-                  <p class="lead">Gym Trainer</p>
-                </div>
-              </div>
-            </div>
-            
-              
-          </div>
-          END slider
-          </div>
-        </div>
-      
-    </section>  --><!-- .section -->
-
-<!--     <section class="section element-animate">
-
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Testimonial</h2>
-              <span class="back-text">Testimonial</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <blockquote class="testimonial">
-              <p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. &rdquo;</p>
-              <div class="d-flex author">
-                <img src="img/person_1.jpg" alt="" class="mr-4">
-                <div class="author-info">
-                  <h4>Mellisa Howard</h4>
-                  <p>CEO, XYZ Company</p>
-                </div>
-              </div>  
-            </blockquote>
-          </div>
-          <div class="col-md-4">
-            <blockquote class="testimonial">
-              <p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. &rdquo;</p>
-              <div class="d-flex author">
-                <img src="img/person_2.jpg" alt="" class="mr-4">
-                <div class="author-info">
-                  <h4>Mike Richardson</h4>
-                  <p>CEO, XYZ Company</p>
-                </div>
-              </div>  
-            </blockquote>
-          </div>
-          <div class="col-md-4">
-            <blockquote class="testimonial">
-              <p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. &rdquo;</p>
-              <div class="d-flex author">
-                <img src="img/person_3.jpg" alt="" class="mr-4">
-                <div class="author-info">
-                  <h4>Charles White</h4>
-                  <p>CEO, XYZ Company</p>
-                </div>
-              </div>  
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </section> --> <!-- .section -->
-
-<!--     <section class="section element-animate">
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Blog</h2>
-              <span class="back-text">Our Blog</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="blog d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/img_2_square.jpg');"></div>
-              <div class="text">
-                <h3>Fitness Class Name Here</h3>
-                <p class="sched-time">
-                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                
-                <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p>
-                
-              </div>
-              
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="blog d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/img_2_square.jpg');"></div>
-              <div class="text">
-                <h3>Fitness Class Name Here</h3>
-                <p class="sched-time">
-                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                
-                <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p>
-                
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section> --> <!-- .section -->
-
-    
-    
-
-
-    <footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4 mb-5">
-            <h3>About Us</h3>
-            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
-            <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
             </ul>
 
-          </div>
-          <div class="col-md-5 mb-5">
-            <h3>Contact Info</h3>
-            <ul class="list-unstyled footer-link">
-              <li class="d-block">
-                <span class="d-block">Address:</span>
-                <span class="text-white">34 Street Name, City Name Here, United States</span></li>
-              <li class="d-block"><span class="d-block">Telephone:</span><span class="text-white">+1 242 4942 290</span></li>
-              <li class="d-block"><span class="d-block">Email:</span><span class="text-white">info@yourdomain.com</span></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Quick Links</h3>
-            <ul class="list-unstyled footer-link">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Disclaimers</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-          
-          </div>
         </div>
-        <div class="row">
-          <div class="col-12 text-md-center text-left">
-            <p>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> <br> Demo Images Unsplash</p>
-          </div>
+    </nav>
+
+        <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+        <nav class="navbar navbar-static-top  " role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+            <form role="search" class="navbar-form-custom" action="search_results.html">
+                <div class="form-group">
+                    <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                </div>
+            </form>
         </div>
-      </div>
-    </footer>
-    <!-- END footer -->
+            <ul class="nav navbar-top-links navbar-right">
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}">Home</a>
+                    @else
+                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('register') }}">Register</a>
+                    @endauth
+                </div>
+            @endif
+                <!-- <li>
+                    <a href="/login">
+                        <i class="fa fa-sign-in"></i>Login</a>
+                    
+                </li>
+                <li>
+                    <a href="/register">
+                        <i class="fa fa-sign-up"></i>Register</a>
+                    
+                </li> -->
+            </ul>
 
-    <!-- loader -->
-    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
+        </nav>
+        </div>
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-sm-4">
+                    <h2>My Schedule</h2>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            <strong>My Schedule</strong>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+<div class="wrapper wrapper-content">
+    <div class="row animated fadeInDown">
+        <div class="col-lg-3">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>Draggable Events</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="#" class="dropdown-item">Config option 1</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div id='external-events'>
+                        <p>Drag a event and drop into callendar.</p>
+                        <div class='external-event navy-bg'>Go to shop and buy some products.</div>
+                        <div class='external-event navy-bg'>Check the new CI from Corporation.</div>
+                        <div class='external-event navy-bg'>Send documents to John.</div>
+                        <div class='external-event navy-bg'>Phone to Sandra.</div>
+                        <div class='external-event navy-bg'>Chat with Michael.</div>
+                        <p class="m-t">
+                            <input type='checkbox' id='drop-remove' class="i-checks" checked /> <label for='drop-remove'>remove after drop</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ibox ">
+                <div class="ibox-content">
+                    <h2>FullCalendar</h2> is a jQuery plugin that provides a full-sized, drag & drop calendar like the one below. It uses AJAX to fetch events on-the-fly for each month and is
+                    easily configured to use your own feed format (an extension is provided for Google Calendar).
+                    <p>
+                        <a href="http://arshaw.com/fullcalendar/" target="_blank">FullCalendar documentation</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>Striped Table </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="#" class="dropdown-item">Config option 1</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div id="calendar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="float-right">
+        10GB of <strong>250GB</strong> Free.
+    </div>
+    <div>
+        <strong>Copyright</strong> Example Company &copy; 2014-2018
+    </div>
+</div>
 
-    <script src="{{ (' templates/js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ (' templates/js/popper.min.js') }}"></script>
-    <script src="{{ (' templates/js/bootstrap.min.js') }}"></script>
-    <script src="{{ (' templates/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ (' templates/js/jquery.waypoints.min.js') }}"></script>
+</div>
+</div>
 
-    <script src="{{ (' templates/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ (' templates/js/magnific-popup-options.js') }}"></script>
-    
+<!-- Mainly scripts -->
+<script src="{{ asset('templatesjs/plugins/fullcalendar/moment.min.js') }}"></script>
+<script src="{{ asset('templatesjs/jquery-3.1.1.min.js') }}"></script>
+<script src="{{ asset('templatesjs/popper.min.js') }}"></script>
+    <script src="{{ asset('templatesjs/bootstrap.js') }}"></script>
+<script src="{{ asset('templatesjs/plugins/metisMenu/jquery.metisMenu.js') }}"></script>
+<script src="{{ asset('templatesjs/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
 
-    <script src="{{ (' templates/js/main.js') }}"></script>
-  </body>
+<!-- Custom and plugin javascript -->
+<script src="{{ asset('templatesjs/inspinia.js') }}"></script>
+<script src="{{ asset('templatesjs/plugins/pace/pace.min.js') }}"></script>
+
+<!-- jQuery UI  -->
+<script src="{{ asset('templatesjs/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+
+<!-- iCheck -->
+<script src="{{ asset('templatesjs/plugins/iCheck/icheck.min.js') }}"></script>
+
+<!-- Full Calendar -->
+<script src="{{ asset('templatesjs/plugins/fullcalendar/fullcalendar.min.js') }}"></script>
+
+<script>
+
+    $(document).ready(function() {
+
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green'
+            });
+
+        /* initialize the external events
+         -----------------------------------------------------------------*/
+
+
+        $('#external-events div.external-event').each(function() {
+
+            // store data so the calendar knows to render an event upon drop
+            $(this).data('event', {
+                title: $.trim($(this).text()), // use the element's text as the event title
+                stick: true // maintain when user navigates (see docs on the renderEvent method)
+            });
+
+            // make the event draggable using jQuery UI
+            $(this).draggable({
+                zIndex: 1111999,
+                revert: true,      // will cause the event to go back to its
+                revertDuration: 0  //  original position after the drag
+            });
+
+        });
+
+
+        /* initialize the calendar
+         -----------------------------------------------------------------*/
+        var date = new Date();
+        var d = date.getDate();
+        var m = date.getMonth();
+        var y = date.getFullYear();
+
+        $('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,agendaWeek,agendaDay'
+            },
+            editable: true,
+            droppable: true, // this allows things to be dropped onto the calendar
+            drop: function() {
+                // is the "remove after drop" checkbox checked?
+                if ($('#drop-remove').is(':checked')) {
+                    // if so, remove the element from the "Draggable Events" list
+                    $(this).remove();
+                }
+            },
+            events: [
+                {
+                    title: 'All Day Event',
+                    start: new Date(y, m, 1)
+                },
+                {
+                    title: 'Long Event',
+                    start: new Date(y, m, d-5),
+                    end: new Date(y, m, d-2)
+                },
+                {
+                    id: 999,
+                    title: 'Repeating Event',
+                    start: new Date(y, m, d-3, 16, 0),
+                    allDay: false
+                },
+                {
+                    id: 999,
+                    title: 'Repeating Event',
+                    start: new Date(y, m, d+4, 16, 0),
+                    allDay: false
+                },
+                {
+                    title: 'Meeting',
+                    start: new Date(y, m, d, 10, 30),
+                    allDay: false
+                },
+                {
+                    title: 'Lunch',
+                    start: new Date(y, m, d, 12, 0),
+                    end: new Date(y, m, d, 14, 0),
+                    allDay: false
+                },
+                {
+                    title: 'Birthday Party',
+                    start: new Date(y, m, d+1, 19, 0),
+                    end: new Date(y, m, d+1, 22, 30),
+                    allDay: false
+                },
+                {
+                    title: 'Click for Google',
+                    start: new Date(y, m, 28),
+                    end: new Date(y, m, 29),
+                    url: 'http://google.com/'
+                }
+            ]
+        });
+
+
+    });
+
+</script>
+</body>
+
 </html>

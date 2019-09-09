@@ -25,6 +25,12 @@ Route::get('/', function () {
 Route::get('halo', function () {
 	return "Halo, Selamat datang di tutorial";
 });
+Route::get('/login',function(){
+	return view('login');
+});
+Route::get('/register',function(){
+	return view('register');
+});
 //route blog
 Route::get('/Blog', 'Blogcontroller@hume');
 Route::get('/Blog/tentang','Blogcontroller@tentang');
