@@ -39,6 +39,17 @@
                             </div>
                         </div>
 
+                        <div class="col-md-6">
+                                <input id="telepon" type="varchar" class="form-control" name="telepon" value="{{ old('telepon') }}" required>
+
+                                @if ($errors->has('telepon'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('telepon') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Password</label>
 

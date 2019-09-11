@@ -15,9 +15,6 @@
                     @endif
 
                     You are logged in!
-                            <div style="text-align: right;">
-                                    <a href="/">Oke</a>
-                            </div>
                 </div>
             </div>
         </div>
