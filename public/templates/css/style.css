@@ -2223,8 +2223,8 @@ button.dim:active:before {
   white-space: nowrap;
 }
 .fc-state-active {
-  background-color: #1ab394;
-  border-color: #1ab394;
+  background-color: #2187cc;
+  border-color: #2187cc;
   color: #ffffff;
 }
 .fc-header-title h2 {
@@ -2257,9 +2257,9 @@ button.dim:active:before {
 .fc-agenda .fc-event-time,
 .fc-event a {
   padding: 4px 6px;
-  background-color: #1ab394;
+  background-color: #2187cc;
   /* background color */
-  border-color: #1ab394;
+  border-color: #2187cc;
   /* border color */
 }
 .fc-event-time,
