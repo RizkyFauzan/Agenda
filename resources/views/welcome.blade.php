@@ -270,7 +270,7 @@
                         <ul class="dropdown-menu dropdown-user">
                             <li><a href="/" class="dropdown-item">Soul Setting</a>
                             </li>
-                            <li><a href="youtube.com" class="dropdown-item">Mind Setting</a>
+                            <li><a href="/" class="dropdown-item">Mind Setting</a>
                             </li>
                         </ul>
                         <a class="close-link">
@@ -290,7 +290,7 @@
         10GB of <strong>250GB</strong> Free.
     </div>
     <div>
-        <strong>Copyright</strong> Example Company &copy; 2014-2018
+        <strong>Copybang</strong> Example Company &copy; 2014-2018
     </div>
 </div>
 
@@ -411,7 +411,7 @@
                     allDay: false
                 },
                 {
-                    title: 'Click for Google',
+                    title: 'Click for more templates',
                     start: new Date(y, m, 28),
                     end: new Date(y, m, 29),
                     url: 'http://google.com/'
